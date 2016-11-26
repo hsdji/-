@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96F315ED1DE95CE900E3A8A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F315EC1DE95CE900E3A8A6 /* main.m */; };
+		96F315F01DE95CE900E3A8A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F315EF1DE95CE900E3A8A6 /* AppDelegate.m */; };
+		96F315F31DE95CE900E3A8A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F315F21DE95CE900E3A8A6 /* ViewController.m */; };
+		96F315F61DE95CE900E3A8A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F315F41DE95CE900E3A8A6 /* Main.storyboard */; };
+		96F315F81DE95CE900E3A8A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F315F71DE95CE900E3A8A6 /* Assets.xcassets */; };
+		96F315FB1DE95CE900E3A8A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F315F91DE95CE900E3A8A6 /* LaunchScreen.storyboard */; };
+		96F316061DE95CE900E3A8A6 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F316051DE95CE900E3A8A6 /* _____Tests.m */; };
+		96F316111DE95CE900E3A8A6 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F316101DE95CE900E3A8A6 /* _____UITests.m */; };
+		96F316201DE95D0A00E3A8A6 /* PFProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F3161F1DE95D0A00E3A8A6 /* PFProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96F316021DE95CE900E3A8A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F315E01DE95CE900E3A8A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F315E71DE95CE900E3A8A6;
+			remoteInfo = "旋转倒计时";
+		};
+		96F3160D1DE95CE900E3A8A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F315E01DE95CE900E3A8A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F315E71DE95CE900E3A8A6;
+			remoteInfo = "旋转倒计时";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96F315E81DE95CE900E3A8A6 /* 旋转倒计时.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "旋转倒计时.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F315EC1DE95CE900E3A8A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96F315EE1DE95CE900E3A8A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96F315EF1DE95CE900E3A8A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96F315F11DE95CE900E3A8A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96F315F21DE95CE900E3A8A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96F315F51DE95CE900E3A8A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96F315F71DE95CE900E3A8A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96F315FA1DE95CE900E3A8A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96F315FC1DE95CE900E3A8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F316011DE95CE900E3A8A6 /* 旋转倒计时Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "旋转倒计时Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F316051DE95CE900E3A8A6 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		96F316071DE95CE900E3A8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F3160C1DE95CE900E3A8A6 /* 旋转倒计时UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "旋转倒计时UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F316101DE95CE900E3A8A6 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		96F316121DE95CE900E3A8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F3161E1DE95D0A00E3A8A6 /* PFProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFProgressView.h; sourceTree = "<group>"; };
+		96F3161F1DE95D0A00E3A8A6 /* PFProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F315E51DE95CE900E3A8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F315FE1DE95CE900E3A8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F316091DE95CE900E3A8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96F315DF1DE95CE900E3A8A6 = {
+			isa = PBXGroup;
+			children = (
+				96F315EA1DE95CE900E3A8A6 /* 旋转倒计时 */,
+				96F316041DE95CE900E3A8A6 /* 旋转倒计时Tests */,
+				96F3160F1DE95CE900E3A8A6 /* 旋转倒计时UITests */,
+				96F315E91DE95CE900E3A8A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96F315E91DE95CE900E3A8A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F315E81DE95CE900E3A8A6 /* 旋转倒计时.app */,
+				96F316011DE95CE900E3A8A6 /* 旋转倒计时Tests.xctest */,
+				96F3160C1DE95CE900E3A8A6 /* 旋转倒计时UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F315EA1DE95CE900E3A8A6 /* 旋转倒计时 */ = {
+			isa = PBXGroup;
+			children = (
+				96F315EE1DE95CE900E3A8A6 /* AppDelegate.h */,
+				96F315EF1DE95CE900E3A8A6 /* AppDelegate.m */,
+				96F315F11DE95CE900E3A8A6 /* ViewController.h */,
+				96F315F21DE95CE900E3A8A6 /* ViewController.m */,
+				96F3161E1DE95D0A00E3A8A6 /* PFProgressView.h */,
+				96F3161F1DE95D0A00E3A8A6 /* PFProgressView.m */,
+				96F315F41DE95CE900E3A8A6 /* Main.storyboard */,
+				96F315F71DE95CE900E3A8A6 /* Assets.xcassets */,
+				96F315F91DE95CE900E3A8A6 /* LaunchScreen.storyboard */,
+				96F315FC1DE95CE900E3A8A6 /* Info.plist */,
+				96F315EB1DE95CE900E3A8A6 /* Supporting Files */,
+			);
+			path = "旋转倒计时";
+			sourceTree = "<group>";
+		};
+		96F315EB1DE95CE900E3A8A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F315EC1DE95CE900E3A8A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96F316041DE95CE900E3A8A6 /* 旋转倒计时Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96F316051DE95CE900E3A8A6 /* _____Tests.m */,
+				96F316071DE95CE900E3A8A6 /* Info.plist */,
+			);
+			path = "旋转倒计时Tests";
+			sourceTree = "<group>";
+		};
+		96F3160F1DE95CE900E3A8A6 /* 旋转倒计时UITests */ = {
+			isa = PBXGroup;
+			children = (
+				96F316101DE95CE900E3A8A6 /* _____UITests.m */,
+				96F316121DE95CE900E3A8A6 /* Info.plist */,
+			);
+			path = "旋转倒计时UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F315E71DE95CE900E3A8A6 /* 旋转倒计时 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F316151DE95CE900E3A8A6 /* Build configuration list for PBXNativeTarget "旋转倒计时" */;
+			buildPhases = (
+				96F315E41DE95CE900E3A8A6 /* Sources */,
+				96F315E51DE95CE900E3A8A6 /* Frameworks */,
+				96F315E61DE95CE900E3A8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "旋转倒计时";
+			productName = "旋转倒计时";
+			productReference = 96F315E81DE95CE900E3A8A6 /* 旋转倒计时.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96F316001DE95CE900E3A8A6 /* 旋转倒计时Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F316181DE95CE900E3A8A6 /* Build configuration list for PBXNativeTarget "旋转倒计时Tests" */;
+			buildPhases = (
+				96F315FD1DE95CE900E3A8A6 /* Sources */,
+				96F315FE1DE95CE900E3A8A6 /* Frameworks */,
+				96F315FF1DE95CE900E3A8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F316031DE95CE900E3A8A6 /* PBXTargetDependency */,
+			);
+			name = "旋转倒计时Tests";
+			productName = "旋转倒计时Tests";
+			productReference = 96F316011DE95CE900E3A8A6 /* 旋转倒计时Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96F3160B1DE95CE900E3A8A6 /* 旋转倒计时UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F3161B1DE95CE900E3A8A6 /* Build configuration list for PBXNativeTarget "旋转倒计时UITests" */;
+			buildPhases = (
+				96F316081DE95CE900E3A8A6 /* Sources */,
+				96F316091DE95CE900E3A8A6 /* Frameworks */,
+				96F3160A1DE95CE900E3A8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F3160E1DE95CE900E3A8A6 /* PBXTargetDependency */,
+			);
+			name = "旋转倒计时UITests";
+			productName = "旋转倒计时UITests";
+			productReference = 96F3160C1DE95CE900E3A8A6 /* 旋转倒计时UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96F315E01DE95CE900E3A8A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xiaofei;
+				TargetAttributes = {
+					96F315E71DE95CE900E3A8A6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					96F316001DE95CE900E3A8A6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 96F315E71DE95CE900E3A8A6;
+					};
+					96F3160B1DE95CE900E3A8A6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 96F315E71DE95CE900E3A8A6;
+					};
+				};
+			};
+			buildConfigurationList = 96F315E31DE95CE900E3A8A6 /* Build configuration list for PBXProject "旋转倒计时" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96F315DF1DE95CE900E3A8A6;
+			productRefGroup = 96F315E91DE95CE900E3A8A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96F315E71DE95CE900E3A8A6 /* 旋转倒计时 */,
+				96F316001DE95CE900E3A8A6 /* 旋转倒计时Tests */,
+				96F3160B1DE95CE900E3A8A6 /* 旋转倒计时UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96F315E61DE95CE900E3A8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F315FB1DE95CE900E3A8A6 /* LaunchScreen.storyboard in Resources */,
+				96F315F81DE95CE900E3A8A6 /* Assets.xcassets in Resources */,
+				96F315F61DE95CE900E3A8A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F315FF1DE95CE900E3A8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F3160A1DE95CE900E3A8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96F315E41DE95CE900E3A8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F315F31DE95CE900E3A8A6 /* ViewController.m in Sources */,
+				96F316201DE95D0A00E3A8A6 /* PFProgressView.m in Sources */,
+				96F315F01DE95CE900E3A8A6 /* AppDelegate.m in Sources */,
+				96F315ED1DE95CE900E3A8A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F315FD1DE95CE900E3A8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F316061DE95CE900E3A8A6 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F316081DE95CE900E3A8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F316111DE95CE900E3A8A6 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96F316031DE95CE900E3A8A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F315E71DE95CE900E3A8A6 /* 旋转倒计时 */;
+			targetProxy = 96F316021DE95CE900E3A8A6 /* PBXContainerItemProxy */;
+		};
+		96F3160E1DE95CE900E3A8A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F315E71DE95CE900E3A8A6 /* 旋转倒计时 */;
+			targetProxy = 96F3160D1DE95CE900E3A8A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96F315F41DE95CE900E3A8A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F315F51DE95CE900E3A8A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96F315F91DE95CE900E3A8A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F315FA1DE95CE900E3A8A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96F316131DE95CE900E3A8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96F316141DE95CE900E3A8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96F316161DE95CE900E3A8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "旋转倒计时/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaofei.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96F316171DE95CE900E3A8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "旋转倒计时/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaofei.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96F316191DE95CE900E3A8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "旋转倒计时Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaofei.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/旋转倒计时.app/旋转倒计时";
+			};
+			name = Debug;
+		};
+		96F3161A1DE95CE900E3A8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "旋转倒计时Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaofei.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/旋转倒计时.app/旋转倒计时";
+			};
+			name = Release;
+		};
+		96F3161C1DE95CE900E3A8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "旋转倒计时UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaofei.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "旋转倒计时";
+			};
+			name = Debug;
+		};
+		96F3161D1DE95CE900E3A8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "旋转倒计时UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaofei.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "旋转倒计时";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96F315E31DE95CE900E3A8A6 /* Build configuration list for PBXProject "旋转倒计时" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F316131DE95CE900E3A8A6 /* Debug */,
+				96F316141DE95CE900E3A8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F316151DE95CE900E3A8A6 /* Build configuration list for PBXNativeTarget "旋转倒计时" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F316161DE95CE900E3A8A6 /* Debug */,
+				96F316171DE95CE900E3A8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96F316181DE95CE900E3A8A6 /* Build configuration list for PBXNativeTarget "旋转倒计时Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F316191DE95CE900E3A8A6 /* Debug */,
+				96F3161A1DE95CE900E3A8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96F3161B1DE95CE900E3A8A6 /* Build configuration list for PBXNativeTarget "旋转倒计时UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F3161C1DE95CE900E3A8A6 /* Debug */,
+				96F3161D1DE95CE900E3A8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96F315E01DE95CE900E3A8A6 /* Project object */;
+}
